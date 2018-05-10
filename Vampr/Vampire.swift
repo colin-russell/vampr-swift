@@ -60,7 +60,11 @@ class Vampire {
   
   /// Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
   func isMoreSenior(than vampire: Vampire) -> Bool {
-    return false
+    if self.numberOfVampiresFromOriginal < vampire.numberOfVampiresFromOriginal {
+      return true
+    } else {
+      return false
+    }
   }
   
   // MARK: Stretch 
