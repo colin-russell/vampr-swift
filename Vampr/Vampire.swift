@@ -45,7 +45,17 @@ class Vampire {
   
   /// Returns the number of vampires away from the original vampire this vampire is
   var numberOfVampiresFromOriginal: Int {
-    return -1//
+    var numberOfVampires = 0
+    var currentVampire = self
+    
+    while true {
+      guard let creator = currentVampire.creator else {
+        break
+      }
+      currentVampire = creator
+      numberOfVampires += 1
+    }
+    return numberOfVampires
   }
   
   /// Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
