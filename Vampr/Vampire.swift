@@ -45,7 +45,7 @@ class Vampire {
   
   /// Returns the number of vampires away from the original vampire this vampire is
   var numberOfVampiresFromOriginal: Int {
-    return -1
+    return -1//
   }
   
   /// Returns true if this vampire is more senior than the other vampire. (Who is closer to the original vampire)
