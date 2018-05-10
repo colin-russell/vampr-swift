@@ -71,6 +71,17 @@ class Vampire {
   
   /// Returns the vampire object with that name, or null if no vampire exists with that name
   func vampire(withName name: String) -> Vampire? {
+    
+    if self.name == name {
+      return self
+    }
+    
+    for vamp in self.offspring {
+      if vamp.vampire(withName: name)?.name == name {
+        return vamp.vampire(withName: name)
+      }
+    }
+    
     return nil
   }
   
@@ -112,4 +123,5 @@ class Vampire {
       return vampire
     }
   }
+
 }
