@@ -67,6 +67,23 @@ class Vampire {
     }
   }
   
+  // MARK: Tree traversal methods
+  
+  /// Returns the vampire object with that name, or null if no vampire exists with that name
+  func vampire(withName name: String) -> Vampire? {
+    return nil
+  }
+  
+  /// Returns the total number of vampires that exist
+  var totalDescendent: Int {
+    return -1
+  }
+  
+  /// Returns an array of all the vampires that were converted after 1980
+  var allMillennialVampires: [Vampire] {
+    return []
+  }
+  
   // MARK: Stretch 
   
   /**

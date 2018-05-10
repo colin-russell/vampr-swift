@@ -18,6 +18,9 @@
 		22B65B7C1FDDFFC400F5E780 /* 3_NumberOfVampiresFromOriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B65B7B1FDDFFC400F5E780 /* 3_NumberOfVampiresFromOriginalTests.swift */; };
 		22B65B7E1FDE013600F5E780 /* 4_MoreSeniorVampireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B65B7D1FDE013600F5E780 /* 4_MoreSeniorVampireTests.swift */; };
 		22B65B801FDE02CD00F5E780 /* 5_ClosestCommonAncestorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B65B7F1FDE02CD00F5E780 /* 5_ClosestCommonAncestorTests.swift */; };
+		22E7120C2006C669004744DB /* 6_VampireWithNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E7120B2006C669004744DB /* 6_VampireWithNameTests.swift */; };
+		22E7120E2006CA45004744DB /* 7_TotalDescendentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E7120D2006CA45004744DB /* 7_TotalDescendentsTests.swift */; };
+		22E712102006CB1E004744DB /* 8_AllMillennialVampiresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E7120F2006CB1E004744DB /* 8_AllMillennialVampiresTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		22B65B7B1FDDFFC400F5E780 /* 3_NumberOfVampiresFromOriginalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_NumberOfVampiresFromOriginalTests.swift; sourceTree = "<group>"; };
 		22B65B7D1FDE013600F5E780 /* 4_MoreSeniorVampireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MoreSeniorVampireTests.swift; sourceTree = "<group>"; };
 		22B65B7F1FDE02CD00F5E780 /* 5_ClosestCommonAncestorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_ClosestCommonAncestorTests.swift; sourceTree = "<group>"; };
+		22E7120B2006C669004744DB /* 6_VampireWithNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6_VampireWithNameTests.swift; sourceTree = "<group>"; };
+		22E7120D2006CA45004744DB /* 7_TotalDescendentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_TotalDescendentsTests.swift; sourceTree = "<group>"; };
+		22E7120F2006CB1E004744DB /* 8_AllMillennialVampiresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_AllMillennialVampiresTests.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* Vampr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vampr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +92,9 @@
 				22B65B7B1FDDFFC400F5E780 /* 3_NumberOfVampiresFromOriginalTests.swift */,
 				22B65B7D1FDE013600F5E780 /* 4_MoreSeniorVampireTests.swift */,
 				22B65B7F1FDE02CD00F5E780 /* 5_ClosestCommonAncestorTests.swift */,
+				22E7120B2006C669004744DB /* 6_VampireWithNameTests.swift */,
+				22E7120D2006CA45004744DB /* 7_TotalDescendentsTests.swift */,
+				22E7120F2006CB1E004744DB /* 8_AllMillennialVampiresTests.swift */,
 				22B65B711FDDFB3400F5E780 /* Info.plist */,
 			);
 			path = VamprTests;
@@ -217,6 +226,9 @@
 			files = (
 				22B65B7A1FDDFF2F00F5E780 /* 2_NumberOfOffspringTests.swift in Sources */,
 				22B65B7E1FDE013600F5E780 /* 4_MoreSeniorVampireTests.swift in Sources */,
+				22E7120C2006C669004744DB /* 6_VampireWithNameTests.swift in Sources */,
+				22E7120E2006CA45004744DB /* 7_TotalDescendentsTests.swift in Sources */,
+				22E712102006CB1E004744DB /* 8_AllMillennialVampiresTests.swift in Sources */,
 				22B65B7C1FDDFFC400F5E780 /* 3_NumberOfVampiresFromOriginalTests.swift in Sources */,
 				22B65B801FDE02CD00F5E780 /* 5_ClosestCommonAncestorTests.swift in Sources */,
 				22B65B701FDDFB3400F5E780 /* 1_AddOffspringTests.swift in Sources */,
