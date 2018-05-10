@@ -87,7 +87,12 @@ class Vampire {
   
   /// Returns the total number of vampires that exist
   var totalDescendent: Int {
-    return -1
+    var numOfDescendents = 0
+    for vamp in self.offspring {
+      numOfDescendents += vamp.totalDescendent
+      numOfDescendents += 1
+    }
+    return numOfDescendents
   }
   
   /// Returns an array of all the vampires that were converted after 1980
