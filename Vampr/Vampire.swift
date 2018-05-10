@@ -34,12 +34,13 @@ class Vampire {
   
   /// Adds the vampire as an offspring of this vampire
   func add(offspring: Vampire) {
-  
+    self.offspring.append(offspring)
+    offspring.creator = self
   }
   
   /// The total number of vampires created by that vampire
   var numberOfOffspring: Int {
-    return -1
+    return self.offspring.count
   }
   
   /// Returns the number of vampires away from the original vampire this vampire is
