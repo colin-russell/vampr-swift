@@ -97,7 +97,21 @@ class Vampire {
   
   /// Returns an array of all the vampires that were converted after 1980
   var allMillennialVampires: [Vampire] {
-    return []
+    var arrayOfMillenials:[Vampire] = []
+    
+    if self.yearConverted > 1980 {
+      arrayOfMillenials.append(self)
+    }
+    
+    for vamp in self.offspring {
+      if vamp.allMillennialVampires.count > 0 {
+        for v in vamp.allMillennialVampires {
+            arrayOfMillenials.append(v)
+        }
+      }
+    }
+    
+    return arrayOfMillenials
   }
   
   // MARK: Stretch 

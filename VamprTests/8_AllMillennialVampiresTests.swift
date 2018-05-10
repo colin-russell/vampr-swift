@@ -56,7 +56,6 @@ class AllMillennialVampiresTests: XCTestCase {
       }
       return vampireIsEqualTo
     }
-    
     XCTAssertEqual(millennials.count, 4)
     XCTAssert(millennials.contains(where: makeVampireIsEqualTo(offspring.4)))
     XCTAssert(millennials.contains(where: makeVampireIsEqualTo(offspring.5)))
